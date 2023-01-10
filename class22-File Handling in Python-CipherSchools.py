@@ -14,8 +14,8 @@ file.close() #Closing a file is important because when you open a file in write 
 
 '''Writing a file'''
 file=open("random.txt","w")
-file.write("Harshita Bajpai")
-a=["harshita","bajpai","sanchita","nivedita"]
+file.write("Anugya verma")
+a=["anugya","verma","kanha","shubhi"]
 file.writelines(a)
 file.close()
 
@@ -81,8 +81,8 @@ print("outside context")
 '''
 
 a={
-    "name":"harshita bajpai",
-    "marks":100,
+    "name":"anugya verma",
+    "marks":80,
     "languages":[
         "c++",
         "python",
